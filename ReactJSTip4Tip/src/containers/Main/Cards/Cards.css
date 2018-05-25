@@ -1,0 +1,52 @@
+.Row {
+    margin: 0px;
+    text-align: justify;
+}
+
+.card-bodyquote {
+    border-left: none !important;
+}
+
+.Card {
+    background-color: white;
+}
+
+.blockquote {
+    border-left: none;
+    
+}
+
+.CardHeader {
+    border-bottom: 1px solid #f4f4f4;
+    
+}
+
+.CardHeader h3 {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.CardFooter {
+    border-top: 1px solid #f4f4f4;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.blockquote .Date {
+    padding-right: 10px;
+    border-right: 4px solid blue;
+}
+
+.blockquote .Product {
+    padding-left: 10px;
+}
+
+.blockquote .Status {
+    float: right;
+}
+
+.blockquote h4 {
+    padding-bottom: 15px;
+}

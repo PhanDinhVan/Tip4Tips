@@ -1,0 +1,143 @@
+.Leads {
+    margin-top: 72px;
+    background-color: #ECF0F5;
+    text-align: justify;
+}
+
+.Leads h1 {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 13px;
+}
+
+.MuiThemeProvider {
+    border-top: 1px solid rgb(217, 217, 217);
+    border-right: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);;
+    border-left: 1px solid rgb(217, 217, 217);
+    border-image: initial;
+    height: auto;
+    overflow: hidden;
+    background: white;
+}
+
+.Leads_Status {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: bold;
+    background: #eee;
+}
+
+.Leads_Status .Lead {
+    padding-left: 20px;
+}
+
+.Leads_Status .Status {
+    float: right;
+    padding-right: 65px;
+}
+
+.Date_Status {
+    float: right;
+    width: 100px;
+    text-align: center;
+}
+
+.secondaryText {
+    color: black !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    height: auto !important;
+}
+
+.FormEditLead {
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    border-color: transparent!important;
+}
+
+.FormEditLead .Card {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.FormEditLead .Card .CardHeader {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.FormEditLead .Card hr {
+    margin-top: 0px;
+}
+
+.FormEditLead .Card input {
+    height: 43px;
+    font-size: 18px;
+}
+
+.FormEditLead .Card select {
+    height: 43px;
+    font-size: 18px;
+}
+
+.CardHeader .btnBack {
+    float: right;
+    color: black;
+}
+
+.Radio {
+    height: 13px !important;
+}
+
+.FormEditLead .Card .label_left {
+    margin-right: 30px;
+    font-weight: normal;
+}
+
+.FormEditLead .Card .label_right {
+    font-weight: normal;
+}
+
+.FormEditLead .Card .CardFooter {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.FormEditLead .Card .CardFooter .btnUpdate {
+    float: right;
+}
+
+.ContentAction {
+    position: relative;
+    overflow: hidden;
+}
+
+.BtnUpdate {
+    position: absolute;
+    /* z-index: 99; */
+    right: 0;
+    top: 30px;
+    height: 43px;
+    width: 80px;
+}
+
+.blockquote {
+    border-left: none;
+    padding-left: 0px;
+}
+
+.blockquote .Date {
+    padding-right: 10px;
+    border-right: 4px solid blue;
+}
+
+.blockquote .Status {
+    padding-left: 10px;
+}
+
+.CardFooter .btnCancel {
+    color: black;
+}

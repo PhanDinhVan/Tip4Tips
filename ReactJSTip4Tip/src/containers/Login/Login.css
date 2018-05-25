@@ -1,0 +1,100 @@
+h1 {
+    margin: 0px;
+}
+
+.ImageLogo {
+    width: auto;
+    height: 80px;
+}
+
+.ViewContainer {
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+@media screen and (max-width: 450px) {
+    .ViewContainer {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .ViewContainer {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+.TextLogin {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+}
+
+.FormTextField {
+    width: 80% !important;
+}
+
+.FormTextField input {
+    color: white !important;
+}
+
+.FormTextField label {
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.ButtonLogin {
+    width: 80% !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.ButtonLogin button {
+    border-radius: 11px !important;
+}
+
+.ButtonLogin button span {
+    font-weight: bold !important;
+}
+
+.SignupSection {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Register {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.ForgotPassword {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 500px) {
+    .FormTextField {
+        width: 40% !important;
+    }
+
+    .ButtonLogin {
+        width: 40% !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    .SignupSection {
+        width: 40%;
+        margin-left: 30%;
+    }
+}

@@ -1,0 +1,24 @@
+.TextRegister {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    /* margin-top: 20px; */
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    padding-top: 105px;
+    text-transform: uppercase;
+}
+
+.FormTextField label {
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.FormTextField input {
+    color: white !important;
+}
+
+.ButtonRegister {
+    background: none !important;
+    box-shadow: none !important;
+}

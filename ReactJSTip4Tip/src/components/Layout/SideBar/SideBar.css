@@ -1,0 +1,75 @@
+.SideBar {
+    position: fixed;
+    width: 75%;
+    max-width: 80%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    /* background-color: #1A2226; */
+    background-color: #3C8DBC;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
+@media (min-width: 500px) {
+    .SideBar {
+        display: none;
+    }
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 9%;
+    color: white;
+}
+
+.MenuContent ul {
+    padding-left: 9%;
+}
+
+.MenuContent ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 3em;
+    /* color: black; */
+}
+
+.MenuBottom {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+.MenuBottom ul {
+    padding-left: 9%;
+}
+
+.MenuBottom ul li a {
+    font-weight: bold;
+    line-height: 2.5em;
+    /* color: black; */
+}
+
+.SideBar ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.SideBar ul li a {
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.Home {
+    margin-top: 72px;
+    background-color: #ECF0F5;
+}
+
+.Home h1 {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 13px;
+    text-align: justify;
+}

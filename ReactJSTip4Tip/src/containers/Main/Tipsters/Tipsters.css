@@ -1,0 +1,118 @@
+.Tipsters {
+    margin-top: 72px;
+    background-color: #ECF0F5;
+    text-align: justify;
+}
+
+.Tipsters h1 {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 13px;
+    /* text-align: justify; */
+}
+
+.MuiThemeProvider {
+    border-top: 1px solid rgb(217, 217, 217);
+    border-right: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);;
+    border-left: 1px solid rgb(217, 217, 217);
+    border-image: initial;
+    height: auto;
+    overflow: hidden;
+    /* width: 90%;
+    margin-left: 5%; */
+    background: white;
+}
+
+.Tipsters_Status {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: bold;
+    background: #eee;
+}
+
+.Tipsters_Status .Lead {
+    padding-left: 20px;
+}
+
+.Tipsters_Status .Status {
+    float: right;
+    padding-right: 50px;
+}
+
+.Point_Status {
+    float: right;
+    width: 72px;
+    text-align: center;
+}
+
+.secondaryText {
+    color: black !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    height: auto !important;
+}
+
+.FormEditTipster {
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    border-color: transparent!important;
+}
+
+.FormEditTipster .Card {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.FormEditTipster .Card .CardHeader {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.FormEditTipster .Card hr {
+    margin-top: 0px;
+}
+
+.FormEditTipster .Card .label_left {
+    margin-right: 30px;
+    font-weight: normal;
+}
+
+.FormEditTipster .Card .label_right {
+    font-weight: normal;
+}
+
+.FormEditTipster .Card input {
+    height: 43px;
+    font-size: 18px;
+}
+
+.Radio {
+    height: 13px !important;
+}
+
+.FormEditTipster .Card select {
+    height: 43px;
+    font-size: 18px;
+}
+
+.CardFooter .btnCancel {
+    color: black;
+}
+
+.FormEditTipster .Card .CardFooter {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.FormEditTipster .Card .CardFooter .btnUpdate {
+    float: right;
+}
+
+.CardHeader .btnBack {
+    float: right;
+    color: black;
+}
